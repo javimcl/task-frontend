@@ -1,0 +1,79 @@
+[
+    {
+        "type": "input",
+        "name": "firstName",
+        "placeholder": "Fernando",
+        "label": "First Name",
+        "value": "",
+        "validations": [
+            {
+                "type": "required"
+            },
+            {
+                "type": "minLength",
+                "value":5
+
+            }
+        ]
+    },
+    {
+        "type": "input",
+        "name": "lastName",
+        "placeholder": "Lucero",
+        "label": "Last Name",
+        "value": "",
+        "validations": [
+            {
+                "type": "required"
+            }
+        ]
+    },
+    {
+        "type": "email",
+        "name": "Email",
+        "placeholder": "prueba@gmail.com",
+        "label": "Email",
+        "value": "",
+        "validations": [
+            {
+                "type": "required"
+            },
+            {
+                "type": "email"
+            }
+        ]
+    },
+    {
+        "type": "password",
+        "name": "password1",
+        "label": "Password",
+        "placeholder": "Password",        
+        "value": "",
+        "validations": [
+            {
+                "type": "required"
+            },           
+            {
+                "type": "minLength",
+                "value":6
+
+            }
+        ]
+    },
+    {
+        "type": "password",
+        "name": "password2",
+        "placeholder": "Repeat Password",
+        "label": "Repeat Password",
+        "value": "",
+        "validations": [
+            {
+                "type": "required"
+            },
+            {
+                "type": "password"
+            }
+        ]
+    }
+    
+]
